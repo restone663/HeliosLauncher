@@ -325,7 +325,7 @@ function asyncSystemScan(mcVersion, launchAfter = true){
                 // Show this information to the user.
                 setOverlayContent(
                     'No Compatible<br>Java Installation Found',
-                    'In order to join WesterosCraft, you need a 64-bit installation of Java 8. Would you like us to install a copy?',
+                    'In order to join Tale Of Titan, you need a 64-bit installation of Java 8. Would you like us to install a copy?',
                     'Install Java',
                     'Install Manually'
                 )
@@ -685,7 +685,7 @@ function dlAsync(login = true){
                     if(SERVER_JOINED_REGEX.test(data)){
                         DiscordWrapper.updateDetails('Exploring the Realm!')
                     } else if(GAME_JOINED_REGEX.test(data)){
-                        DiscordWrapper.updateDetails('Sailing to Westeros!')
+                        DiscordWrapper.updateDetails('SailTale Of Titaning to Tale Of Titan!')
                     }
                 }
 
